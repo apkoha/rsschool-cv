@@ -330,7 +330,26 @@ iframe {
     flex-direction: column;
   }
 
+  .main__right {
+    padding: 0 32px;
+  }
+
   .main__photo-container {
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 444px) {
+  .main__experience-sublink,
+  .main__experience-img {
+    width: 316px;
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  .main__code-container {
+    width: 316px;
+    font-size: 14px;
+    border-radius: 10px;
   }
 }
